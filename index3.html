@@ -10,8 +10,13 @@
 		<script src="node_modules/html5-qrcode/html5-qrcode.min.js"></script>
 	</head>
     <body>
-        <img src="images/YutuBis.png" style="width: 52ch; height: 112ch; border: 0; z-index: 0;"/>
-        
+        <img src="images/YutuBis.png" style="width: 52ch; height: 112ch; border: 0; z-index: 1; margin-top: -8px; margin-left: -8px;"/>
+        <!--<video autoplay src="images/Yutu.mp4" width=320  height=240 style="z-index: 5; position: absolute;"></video>--->
+        <video loop controls style="width: 200px; height: 200px; position: absolute; margin-top: -640px;z-index: 0; margin-left: 100px;"> 
+            <source src="images/Yutu.mp4" type="video/mp4">
+            <p>Votre navigateur ne prend pas en charge les vidéos HTML5. Voici, à la place, un lien sur la vidéo</p>
+        </video>
+
         <a href="index5.html"><img src="images/photo.png" alt="ton image" style="width: 100px; position: absolute; margin-top: -120px; margin-left: 160px; z-index: 1;"/></a>
 
     </body>
